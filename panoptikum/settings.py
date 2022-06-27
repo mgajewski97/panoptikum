@@ -122,5 +122,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS = ["https://mg-alx-panopt.herokuapp.com"]
+
 import django_heroku
 django_heroku.settings(locals())
